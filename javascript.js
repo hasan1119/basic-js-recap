@@ -50,10 +50,11 @@ myFunction()
 
 // TODO: 5. comment 
 
-// single line comment 
+// single line comment  (ctrl+/)
 
 /* 
-multiline comment
+multiline comment (alt+shift+a)
+
 */
 
 
@@ -164,7 +165,7 @@ console.log(Math.round(x)); */
 // console.log(Math.floor(Math.random() * 10 + 1));
 
 
-// TODO: 1.Number
+// TODO: 9.Number and it's methods
 // var x = 10;
 // var z = Number("10")
 // console.log(z);
@@ -192,7 +193,7 @@ console.log(x / y); */
 
 // console.log(n.toString());
 
-//  TODO:  string
+//  TODO: 10. string and its methods
 // var name = "Hasan";
 // var name2 = String(52455)
 // console.log(name2);
@@ -249,11 +250,122 @@ console.log(parseInt(num)); */
 // console.log(anthem.trimRight());
 // console.log(anthem.trimStart());
 // console.log(anthem.trimEnd());
-var x = "Rokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul na HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul Hasan"
+// var x = "Rokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul nahid HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul HasanRokibul Hasan"
 // console.log(x.substring(2, 7));
 // console.log(x.substr(2, 3));
 
 // console.log(x.indexOf("z"));
 // console.log(x.includes("5"));
 // console.log(x.lastIndexOf(''));
-console.log(x.search());
+// console.log(x.search('nahid'));
+// console.log(x.match(/Hasan/g));
+
+
+
+
+//  TODO: 11. string concatenation 
+
+// var firstName = "Md. Rokibul"
+// var lastName = 'Hasan'
+
+// console.log(firstName + ' ' + lastName);
+// console.log(firstName, lastName);
+// console.log(firstName.concat(lastName));
+// var fullName = `${firstName} ${lastName}`
+// console.log(fullName);
+
+
+
+
+//  TODO: 12. truthy and falsy value
+// **** falsy value///
+// console.log(Boolean('')); // falsy value
+// console.log(Boolean(0)); // falsy
+// console.log(Boolean(undefined)); // falsy
+// console.log(Boolean(null)); // falsy
+// console.log(Boolean(false)); // falsy
+// console.log(Boolean(NaN)); // falsy
+
+//***** Truthy value
+// console.log(Boolean('Hasan')); // truthy
+// console.log(Boolean(50)); // truthy
+// console.log(Boolean(-50)); // truthy
+
+
+// TODO:  13. array and its methods and properties 
+/* 
+var myArray = ['Hasan', 21, true, undefined] // declaring an array
+console.log(myArray);
+
+var arr = new Array('Hasan', 21, true, undefined)
+console.log(arr); */
+
+
+// var arr = [12, 75, 42, 12, 45, 12, 44]
+// console.log(arr[2]);
+// console.log(arr);
+// arr[2] = 567;
+// console.log(arr);
+
+
+// var arr = [12, 75, 42, 12, 45, 12, 44]
+// // console.log(arr[0]);
+// // console.log(arr[1]);
+// // console.log(arr[2]);
+// // console.log(arr[4]);
+// arr.forEach(element => {
+//     console.log(element);
+// })
+
+/* 
+var arr = [12, 75, 42, 12, 45, 12, 44, 10]
+// console.log(arr.length);
+arr.push(100)
+arr.unshift(500)
+console.log(arr); */
+
+
+/* var arr = [12, 75, 42, 12, 45, 12, 44, 10]
+arr.pop()
+arr.shift()
+console.log(arr); */
+
+// var arr = [1, 5, 10, 50, 12, 75, 42, 12, 45, 12, 44, 10]
+// console.log(arr.toString());
+// console.log(arr.toLocaleString());
+
+// console.log(arr[arr.length - 1]);
+// console.log(eval(arr.join("+")));
+// console.log(arr.join("+"));
+
+// console.log(arr.slice(2, 7));
+// console.log(arr);
+
+// const myGirls = ["Cecilie", "Lone"];
+// const myBoys = ["Emil", "Tobias", "Linus"];
+// var arr = [1, 5, 10, 50, 12, 75, 42, 12, 100, 45, 12, 44, 10, 34, 10]
+// console.log(myGirls.concat(myBoys).concat(arr));
+
+// console.log(arr.indexOf(100) != -1);
+// console.log(arr.includes(100));
+// console.log(arr.lastIndexOf(10));
+// const fruits = ["Banana", "Orange", 'Zoom', "Apple", "Agple", "Mango"];
+// console.log((fruits.sort()).reverse());
+
+// var num = [744, 542, 5455, 364, 645, 564, 464]
+// var num2 = num.sort(function (a, b) {
+//     return b - a;
+// });
+
+// console.log(num2);
+
+
+
+//  TODO: 14. Function
+
+function myFunction() {
+    return 'Function has been called';
+}
+
+var result = myFunction()
+console.log(result);
