@@ -363,9 +363,91 @@ console.log(arr); */
 
 //  TODO: 14. Function
 
-function myFunction() {
-    return 'Function has been called';
-}
+// function myFunction() {
+//     return 'Function has been called';
+// }
 
-var result = myFunction()
-console.log(result);
+// var result = myFunction()
+// console.log(result);
+
+
+// function add(a, b = 4) {
+//     console.log(a, "a");
+//     console.log(b, "b");
+//     var result = a + b;
+//     console.log(result);
+// }
+
+// add(5, 30)
+
+
+// function add() {
+//     // console.log(arguments);
+//     // console.log(arguments[3]);
+
+//     // for (const value of arguments) {
+//     //     console.log(value);
+//     // }
+//     var total = 0
+//     for (const value of arguments) {
+//         total = total + value;
+//         console.log(total);
+//     }
+//     console.log(total);
+// }
+
+// add(5, 30, 5, 320, 5, 30, 5, 30, 5, 30, 5, 30, 5, 30, 5, 30, 5, 30, 5, 30, 5, 30, 5, 30, 5, 30)
+
+
+// var x = 10;
+
+// console.log(x);
+
+
+// var myFunc = function () {
+//     console.log(2 + 2);
+// }
+// myFunc()
+
+
+// var myFunc = () => {
+//     console.log(2 + 2)
+
+// }
+// // myFunc()
+
+
+// var add = function (a, b) {
+//     return a + b;
+// }
+// // console.log(add(2, 3));
+
+
+// var addWithArrow = (a, b) => a + b
+// // console.log(addWithArrow(2, 3));
+
+// var addWithArrow = () => 'called';
+// // console.log(addWithArrow());
+
+
+// var square = a => a * a;
+// console.log(square(10));
+
+// var squareRoot = a => Math.sqrt(a);
+// console.log(square(81));
+
+// var num = 0
+// var smartFunction = () => {
+//     console.log("Hasan", num);
+//     console.log("Rokibul");
+//     num++
+
+//     if (num == 5) {
+//         return 0;
+//     } else {
+//         smartFunction()
+//     }
+// }
+
+// smartFunction()
+
